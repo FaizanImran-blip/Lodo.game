@@ -3,25 +3,25 @@
 #include<ctime>
 #include<cstdlib>
 using namespace std;
-class lodo{
+class lodoGame{
     public:
     string name;
     string color;
-    lodo(string n,string c):name(n),color(c){
+    lodoGame(string n,string c):name(n),color(c){
         
     }
 };
 class game{
 public:
-    vector<lodo>play;
+    vector<lodoGame>play;
     game(){
-    play.push_back(lodo("player 1","red"));
-    play.push_back(lodo("player 2","green"));
-    play.push_back(lodo("player 3","blue"));
-    play.push_back(lodo("player 4","yellow"));
+    play.push_back(lodoGame("player 1","red"));
+    play.push_back(lodoGame("player 2","green"));
+    play.push_back(lodoGame("player 3","blue"));
+    play.push_back(lodoGame("player 4","yellow"));
 }
 };
-class token{
+class tokenpas{
     public:
     int p=0;
     bool h=false;
@@ -49,12 +49,12 @@ class token{
 int main()
 {
     srand(static_cast<unsigned int>(time(0)));
-    vector<token>t(4);
+    vector<tokenpas>t(4);
     game g1;  
     bool w=false;
-    cout<<"welcome to the lodo game:"<<endl;
-    cout<<"press enter to start the game:"<<endl;
-    cin.ignore(); 
+    cout<<"          Welcome to lodo King           "<<endl;
+    cout<<":::::::::: Press enter to start ::::::::::"<<endl;
+    cin.get(); 
     while(!w){
     for(int i=0;i<4;i++)
     {
