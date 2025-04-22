@@ -1,5 +1,25 @@
-This is a simple implementation of the classic board game "Ludo" in C++. The game involves four players, each represented by a different color. Players take turns rolling a dice and moving their tokens across a virtual board. The first player to reach position 50 wins the game.
-## Features
-- Four players: "Player 1" (Red), "Player 2" (Green), "Player 3" (Blue), "Player 4" (Yellow).
-- Dice roll: Each player rolls a dice on their turn, and moves their token accordingly.
-- Victory condition: The first player to reach position 50 wins the game.
+# 🎲 Ludo King - Console Dice Game in C++
+
+A simple console-based **Ludo-style dice game** built using C++. This game simulates the turn-based rolling of a dice among 4 players. Each player has a color and a position, and the first to reach position `50` wins.
+
+---
+
+## 📌 Features
+
+- 🎮 4 Players: Red, Green, Blue, Yellow
+- 🎲 Dice rolling simulation with `Enter` key
+- 🏁 Win condition at position `50`
+- 🧠 Object-Oriented Programming (OOP) structure
+- 🔁 Turn-based gameplay loop
+
+---
+
+## 🧱 Class Structure
+
+### `lodoGame`
+Represents a player with:
+- `name`: Player name (e.g., "player 1")
+- `color`: Player color (e.g., "red")
+
+### `game`
+- Initializes and holds all 4 players in a
