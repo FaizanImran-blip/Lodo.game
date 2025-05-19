@@ -1,6 +1,6 @@
 # 🎲 Ludo King - Console Dice Game in C++
 A simple console-based **Ludo-style dice game** built using C++. This game simulates the turn-based rolling of a dice among 4 players. Each player has a color and a position, and the first to reach position `50` wins.
----
+----
 ## 📌 Features
 
 - 🎮 4 Players: Red, Green, Blue, Yellow
@@ -9,7 +9,7 @@ A simple console-based **Ludo-style dice game** built using C++. This game simul
 - 🧠 Object-Oriented Programming (OOP) structure
 - 🔁 Turn-based gameplay loop
 
----
+----
 
 ## 🧱 Class Structure
 
