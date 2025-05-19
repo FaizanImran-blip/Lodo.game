@@ -3,22 +3,22 @@
 #include<ctime>
 #include<cstdlib>
 using namespace std;
-class lodoGame{
+class LodoGame{
     public:
     string name;
     string color;
-    lodoGame(string n,string c):name(n),color(c){
+    LodoGame(string n,string c):name(n),color(c){
         
     }
 };
 class game{
 public:
-    vector<lodoGame>play;
+    vector<LodoGame>play;
     game(){
-    play.push_back(lodoGame("player 1","red"));
-    play.push_back(lodoGame("player 2","green"));
-    play.push_back(lodoGame("player 3","blue"));
-    play.push_back(lodoGame("player 4","yellow"));
+    play.push_back(LodoGame("player 1","red"));
+    play.push_back(LodoGame("player 2","green"));
+    play.push_back(LodoGame("player 3","blue"));
+    play.push_back(LodoGame("player 4","yellow"));
 }
 };
 class tokenpas{
