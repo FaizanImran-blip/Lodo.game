@@ -9,7 +9,7 @@ A simple console-based **Ludo-style dice game** built using C++. This game simul
 - 🧠 Object-Oriented Programming (OOP) structure
 - 🔁 Turn-based gameplay loop
 
-
+---
 
 ## 🧱 Class Structure
 
