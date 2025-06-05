@@ -1,22 +1,41 @@
-# 🎲 Ludo King - Console Dice Game in C++
-A simple console-based **Ludo-style dice game** built using C++. This game simulates the turn-based rolling of a dice among 4 players. Each player has a color and a position, and the first to reach position `50` wins.
+<h1 align="center">🎮 Ludo Game - C++ Console Edition</h1>
 
-## 📌 Features
+<p align="center">
+  A terminal-based multiplayer Ludo game simulation built with C++. Fun, simple, and offline!
+</p>
 
-- 🎮 4 Players: Red, Green, Blue, Yellow
-- 🎲 Dice rolling simulation with `Enter` key
-- 🏁 Win condition at position `50`
-- 🧠 Object-Oriented Programming (OOP) structure
-- 🔁 Turn-based gameplay loop
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-C++-blue.svg" alt="Language Badge">
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen.svg" alt="Project Status">
+  <img src="https://img.shields.io/badge/Platform-Terminal-lightgrey.svg" alt="Platform">
+</p>
 
+---
 
+## 📜 Table of Contents
+- [🎯 Game Overview](#-game-overview)
+- [📷 Preview](#-preview)
+- [⚙️ Setup Instructions](#️-setup-instructions)
+- [🎮 How to Play](#-how-to-play)
+- [🗂 Project Structure](#-project-structure)
+- [🧠 Logic Breakdown](#-logic-breakdown)
+- [👨‍💻 Author](#-author)
+- [📄 License](#-license)
 
-## 🧱 Class Structure
+---
 
-### `LodoGame`
-Represents a player with:
-- `name`: Player name (e.g., "player 1")
-- `color`: Player color (e.g., "red")
+## 🎯 Game Overview
 
-### `game`
-- Initializes and holds all 4 players in a
+> A console version of Ludo where 4 players (Red, Green, Blue, Yellow) compete to complete their 4 tokens first.
+
+- 🎲 Dice roll mechanic
+- 🔁 Turn-based logic
+- 🚩 Win condition (first to complete 4 tokens)
+- ❌ Loser detection (least completed tokens)
+
+---
+
+## 📷 Preview
+
+> Here's how it looks in the terminal:
+
