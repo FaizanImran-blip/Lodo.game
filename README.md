@@ -22,7 +22,7 @@
 - [👨‍💻 Author](#-author)
 - [📄 License](#-license)
 
----
+--
 
 ## 🎯 Game Overview
 
